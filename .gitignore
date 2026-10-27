@@ -1,0 +1,11 @@
+# Python 运行时自动生成的文件，不需要上传
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
