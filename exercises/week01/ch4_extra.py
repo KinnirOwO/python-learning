@@ -2,7 +2,7 @@
 sammy = {'username': 'sammy-shark', 'online': True, 'followers': 987}
 
 # 1. 添加一个新键，再打印
-sammy['location'] = 'Beijing'
+sammy['location'] = 'Haikou'
 print("添加键后：", sammy)
 
 # 2. 删除 "online" 键值对，再打印

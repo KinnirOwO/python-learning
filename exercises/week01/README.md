@@ -478,7 +478,7 @@ coral[1:3] = ('staghorn coral', 'pillar coral')
 sammy = {'username': 'sammy-shark', 'online': True, 'followers': 987}
 
 # 1. 添加一个新键，再打印
-sammy['location'] = 'Beijing'
+sammy['location'] = 'Haikou'
 print("添加键后：", sammy)
 
 # 2. 删除 "online" 键值对，再打印
@@ -489,15 +489,15 @@ print("删除 online 后：", sammy)
 运行结果：
 
 ```text
-添加键后： {'username': 'sammy-shark', 'online': True, 'followers': 987, 'location': 'Beijing'}
-删除 online 后： {'username': 'sammy-shark', 'followers': 987, 'location': 'Beijing'}
+添加键后： {'username': 'sammy-shark', 'online': True, 'followers': 987, 'location': 'Haikou'}
+删除 online 后： {'username': 'sammy-shark', 'followers': 987, 'location': 'Haikou'}
 ```
 
 </details>
 
 ### 讲解
 
-题目没规定加什么键，我加的是 `'location': 'Beijing'`，你可以换成任何键，比如 `sammy['age'] = 18`。删除用 `del`，用 `sammy.pop('online')` 也完全正确，区别是 `pop` 会把被删的值（`True`）交回来。
+题目没规定加什么键，我加的是 `'location': 'Haikou'`，你可以换成任何键，比如 `sammy['age'] = 18`。删除用 `del`，用 `sammy.pop('online')` 也完全正确，区别是 `pop` 会把被删的值（`True`）交回来。
 
 ## 第9部分　交作业前的检查清单
 
